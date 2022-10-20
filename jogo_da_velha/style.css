@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+h3{
+    margin-top: -5px;
+    text-align: center;
+}
+
+#tela-escura{
+    width: 100%;
+    height: 30%;
+    opacity: 0,85;
+    color: white;
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 10%;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cell{
+    width: 95px;
+    height: 85px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+form{
+    display: grid;
+    max-width: 340px;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 20px;
+}
+
+.vez, span{
+    width: 100%;
+  justify-content: center;
+  column-gap: 5%;
+  margin: 0 auto;
+  font-size: 50px;
+  padding-left: 23%;
+  float: left;
+}
